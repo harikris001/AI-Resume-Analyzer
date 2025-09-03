@@ -1,87 +1,84 @@
-# Welcome to React Router!
+# AI Resume Analyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
+A modern web application that uses AI to analyze resumes and provide actionable feedback for job seekers. Built with React, React Router, Tailwind CSS, and Puter.js platform for authentication, file storage, and AI-powered resume analysis.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+---
 
-## Features
+## 🚀 Overview
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+AI Resume Analyzer helps users upload their resumes (PDF), analyzes them using AI, and provides instant feedback on ATS compatibility, tone, content, structure, and skills. It is designed to help job seekers improve their resumes and increase their chances of landing interviews.
 
-## Getting Started
+---
 
-### Installation
+## 🛠️ Technologies & Documentation
 
-Install the dependencies:
+- [React](https://react.dev/)
+- [React Router](https://reactrouter.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Puter.js](https://puter.com/docs/js/)
+- [Vite](https://vitejs.dev/)
+- [Docker](https://docs.docker.com/)
 
-```bash
-npm install
-```
+---
 
-### Development
+## ⚙️ Setup & Installation
 
-Start the development server with HMR:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/harikirs001/AI-Resume-Analyzer.git
+   cd AI-Resume-Analyzer
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+   The app will be available at `http://localhost:5173`.
 
-```bash
-npm run dev
-```
+---
 
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
+## 🏗️ Building for Production
 
 ```bash
 npm run build
 ```
 
-## Deployment
+---
 
-### Docker Deployment
+## 🚢 Deployment
 
-To build and run using Docker:
+### Docker
 
+Build and run using Docker:
 ```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
+docker build -t ai-resume-analyzer .
+docker run -p 3000:3000 ai-resume-analyzer
 ```
 
-The containerized application can be deployed to any platform that supports Docker, including:
+### Manual Deployment
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+Deploy the output of `npm run build` using your preferred Node.js hosting platform.
 
 ---
 
-Built with ❤️ using React Router.
+## 🎨 Styling
+
+Styled with [Tailwind CSS](https://tailwindcss.com/). You can customize or use any CSS framework you prefer.
+
+---
+
+## 📚 Useful Links
+
+- [React Documentation](https://react.dev/)
+- [React Router Documentation](https://reactrouter.com/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/)
+- [Puter.js Documentation](https://puter.com/docs/js/)
+- [Vite Documentation](https://vitejs.dev/)
+- [Docker Documentation](https://docs.docker.com/)
+
+---
+
+## ❤️ Made with love by Harikrishna
